@@ -17,9 +17,9 @@ namespace AmortizationPlansForLoansFinalProject.Services.Services.Implementation
             _productRepository = productRepository;
         }
 
-        public IEnumerable<Product> GetAllProducts()
+        public async Task<IEnumerable<Product>> GetAllProductsAsync()
         {
-            return _productRepository.GetAllProducts(); 
+            return await _productRepository.GetAllProductsAsync(); 
         }
     }
 

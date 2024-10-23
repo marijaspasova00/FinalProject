@@ -1,14 +1,9 @@
 ﻿using AmortizationPlansForLoansFinalProject.DataAccess.DataContext;
-using AmortizationPlansForLoansFinalProject.Domain.Enums;
 using AmortizationPlansForLoansFinalProject.Domain.Models;
-using AmortizationPlansForLoansFinalProject.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
-namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories.Implementations
+namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories
 {
     public class LoanInputRepository : ILoanInputRepository
     {
@@ -19,11 +14,10 @@ namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories.Implemen
             _context = context;
         }
 
-        public void AddLoanInputIntoDb(LoanInput loanInput)
+        public async Task AddLoanInputIntoDbAsync(LoanInput loanInput)
         {
-            _context.LoanInputs.Add(loanInput);
-            _context.SaveChanges();
+            await _context.LoanInputs.AddAsync(loanInput); 
+            await _context.SaveChangesAsync();
         }
-        
     }
 }

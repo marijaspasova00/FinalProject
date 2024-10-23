@@ -25,7 +25,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.Domain\AmortizationPlansForLoansFinalProject.Domain.csproj" />
-    <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.DTOs\AmortizationPlansForLoansFinalProject.DTOs.csproj" />
   </ItemGroup>
 
 </Project>

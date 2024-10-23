@@ -1,34 +1,47 @@
-﻿using AmortizationPlansForLoansFinalProject.DataAccess.Repositories;
-using AmortizationPlansForLoansFinalProject.Domain.Models;
-using AmortizationPlansForLoansFinalProject.DTOs;
-using AmortizationPlansForLoansFinalProject.Services.Services;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using AmortizationPlansForLoansFinalProject.ViewModels;
+using AmortizationPlansForLoansFinalProject.Domain.Enums;
+using AmortizationPlansForLoansFinalProject.DataAccess.DataContext;
+using Microsoft.EntityFrameworkCore;
 
-namespace AmortizationPlansForLoansFinalProject.Controllers
+public class LoanInputController : Controller
 {
-    public class LoanInputController : Controller
+    private readonly AmPlanDbContext _context; // Make sure to replace with your actual DbContext
+
+    public LoanInputController(AmPlanDbContext context)
     {
-        private readonly ILoanInputService _loanInputService;
-        private readonly IProductService _productService;
-        private readonly IProductRepository _productRepository;
+        _context = context;
+    }
 
-
-        public LoanInputController(ILoanInputService loanInputService, IProductService productService, IProductRepository productRepository)
+    public async Task<IActionResult> Index()
+    {
+        var model = new LoanInputViewModel
         {
-            _loanInputService = loanInputService;
-            _productService = productService;
-            _productRepository = productRepository;
-        }
-        [HttpGet]
-        public IActionResult Index()
-        {
-            var model = new LoanInputDto
+            Products = await _context.Products.Select(p => new SelectListItem
             {
-                ProductList = _productService.GetAllProducts() 
-            };
-            return View(model);
-        }
+                Value = p.ProductID.ToString(),
+                Text = p.Name // Adjust according to your Product properties
+            }).ToListAsync(),
+            PaymentFrequencies = Enum.GetValues(typeof(PaymentFrequency))
+                                      .Cast<PaymentFrequency>()
+                                      .Select(pf => new SelectListItem
+                                      {
+                                          Value = ((int)pf).ToString(),
+                                          Text = pf.ToString()
+                                      }).ToList(),
+            SelectedPaymentFrequency = (int)PaymentFrequency.Monthly // Default selection
+        };
 
+        return View(model);
+    }
+
+    [HttpPost]
+    public IActionResult CalculateAmortization(LoanInputViewModel model)
+    {
+        // Perform calculations based on the model data
+        // You can return the results or the same view with updated data
+
+        return RedirectToAction("Index"); // Adjust as needed
     }
 }

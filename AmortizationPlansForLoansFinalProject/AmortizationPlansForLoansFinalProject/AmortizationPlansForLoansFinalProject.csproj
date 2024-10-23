@@ -22,9 +22,9 @@
   <ItemGroup>
     <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.DataAccess\AmortizationPlansForLoansFinalProject.DataAccess.csproj" />
     <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.Domain\AmortizationPlansForLoansFinalProject.Domain.csproj" />
-    <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.DTOs\AmortizationPlansForLoansFinalProject.DTOs.csproj" />
     <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.Helper\AmortizationPlansForLoansFinalProject.Helper.csproj" />
     <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.Services\AmortizationPlansForLoansFinalProject.Services.csproj" />
+    <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.ViewModels\AmortizationPlansForLoansFinalProject.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

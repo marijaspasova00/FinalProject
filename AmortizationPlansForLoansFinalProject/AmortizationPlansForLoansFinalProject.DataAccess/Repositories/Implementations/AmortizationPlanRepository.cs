@@ -1,21 +1,30 @@
 ﻿using AmortizationPlansForLoansFinalProject.DataAccess.DataContext;
 using AmortizationPlansForLoansFinalProject.Domain.Models;
-using System;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories.Implementations
+namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories
 {
-    public class AmortizationPlanRepository(AmPlanDbContext context) : IAmortizationPlanRepository
+    public class AmortizationPlanRepository : IAmortizationPlanRepository
     {
-        public void AddAmPlanIntoDb(AmortizationPlan amortizationPlan)
+        private readonly AmPlanDbContext _context;
+
+        public AmortizationPlanRepository(AmPlanDbContext context)
         {
-            //await context.AmortizationPlans.AddAsync(amortizationPlan);
-            context.AmortizationPlans.AddRange(amortizationPlan);
-            context.SaveChanges();
+            _context = context;
         }
 
+        public async Task AddAmPlanIntoDbAsync(AmortizationPlan amortizationPlan)
+        {
+            await _context.AmortizationPlans.AddAsync(amortizationPlan);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task AddAmPlanIntoDbListAsync(List<AmortizationPlan> amortizationPlans)
+        {
+            await _context.AmortizationPlans.AddRangeAsync(amortizationPlans);
+            await _context.SaveChangesAsync(); 
+        }
     }
 }

@@ -1,12 +1,10 @@
 ﻿using AmortizationPlansForLoansFinalProject.DataAccess.DataContext;
 using AmortizationPlansForLoansFinalProject.Domain.Models;
-using System;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories.Implementations
+namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories
 {
     public class ProductRepository : IProductRepository
     {
@@ -17,9 +15,9 @@ namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories.Implemen
             _context = context;
         }
 
-        public IEnumerable<Product> GetAllProducts()
+        public async Task<IEnumerable<Product>> GetAllProductsAsync()
         {
-            return _context.Products.ToList();
+            return await _context.Products.ToListAsync(); 
         }
     }
 }

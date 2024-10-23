@@ -3,19 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmortizationPlansForLoansFinalProject", "AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.csproj", "{9D537897-DFC4-4299-9BFA-6438816E249D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmortizationPlansForLoansFinalProject", "AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.csproj", "{9D537897-DFC4-4299-9BFA-6438816E249D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmortizationPlansForLoansFinalProject.Domain", "AmortizationPlansForLoansFinalProject.Domain\AmortizationPlansForLoansFinalProject.Domain.csproj", "{20C45E25-59E0-4428-9507-0E5E65B8C0DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmortizationPlansForLoansFinalProject.Domain", "AmortizationPlansForLoansFinalProject.Domain\AmortizationPlansForLoansFinalProject.Domain.csproj", "{20C45E25-59E0-4428-9507-0E5E65B8C0DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmortizationPlansForLoansFinalProject.DataAccess", "AmortizationPlansForLoansFinalProject.DataAccess\AmortizationPlansForLoansFinalProject.DataAccess.csproj", "{FEFF119F-B914-4FBE-A826-425CB2DF9E64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmortizationPlansForLoansFinalProject.DataAccess", "AmortizationPlansForLoansFinalProject.DataAccess\AmortizationPlansForLoansFinalProject.DataAccess.csproj", "{FEFF119F-B914-4FBE-A826-425CB2DF9E64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmortizationPlansForLoansFinalProject.Helper", "AmortizationPlansForLoansFinalProject.Helper\AmortizationPlansForLoansFinalProject.Helper.csproj", "{9EC476B5-6CB6-4C72-B140-65466BD903FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmortizationPlansForLoansFinalProject.Helper", "AmortizationPlansForLoansFinalProject.Helper\AmortizationPlansForLoansFinalProject.Helper.csproj", "{9EC476B5-6CB6-4C72-B140-65466BD903FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmortizationPlansForLoansFinalProject.DTOs", "AmortizationPlansForLoansFinalProject.DTOs\AmortizationPlansForLoansFinalProject.DTOs.csproj", "{4FA5FD19-F278-4DB3-8B28-6AE4F0F8395B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmortizationPlansForLoansFinalProject.Services", "AmortizationPlansForLoansFinalProject.Services\AmortizationPlansForLoansFinalProject.Services.csproj", "{853A40EE-E611-454F-B7A8-62F5A9E4767B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmortizationPlansForLoansFinalProject.Services", "AmortizationPlansForLoansFinalProject.Services\AmortizationPlansForLoansFinalProject.Services.csproj", "{853A40EE-E611-454F-B7A8-62F5A9E4767B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmortizationPlansForLoansFinalProject.Mappers", "AmortizationPlansForLoansFinalProject.Mappers\AmortizationPlansForLoansFinalProject.Mappers.csproj", "{201D19F3-99A9-44E6-A04C-6F9C7FC5DBF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmortizationPlansForLoansFinalProject.ViewModels", "AmortizationPlansForLoansFinalProject.ViewModels\AmortizationPlansForLoansFinalProject.ViewModels.csproj", "{36CF864B-2934-47C2-9318-D81F326067F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,18 +37,14 @@ Global
 		{9EC476B5-6CB6-4C72-B140-65466BD903FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EC476B5-6CB6-4C72-B140-65466BD903FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EC476B5-6CB6-4C72-B140-65466BD903FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4FA5FD19-F278-4DB3-8B28-6AE4F0F8395B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FA5FD19-F278-4DB3-8B28-6AE4F0F8395B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FA5FD19-F278-4DB3-8B28-6AE4F0F8395B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FA5FD19-F278-4DB3-8B28-6AE4F0F8395B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{853A40EE-E611-454F-B7A8-62F5A9E4767B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{853A40EE-E611-454F-B7A8-62F5A9E4767B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{853A40EE-E611-454F-B7A8-62F5A9E4767B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{853A40EE-E611-454F-B7A8-62F5A9E4767B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{201D19F3-99A9-44E6-A04C-6F9C7FC5DBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{201D19F3-99A9-44E6-A04C-6F9C7FC5DBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{201D19F3-99A9-44E6-A04C-6F9C7FC5DBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{201D19F3-99A9-44E6-A04C-6F9C7FC5DBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36CF864B-2934-47C2-9318-D81F326067F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36CF864B-2934-47C2-9318-D81F326067F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36CF864B-2934-47C2-9318-D81F326067F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36CF864B-2934-47C2-9318-D81F326067F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

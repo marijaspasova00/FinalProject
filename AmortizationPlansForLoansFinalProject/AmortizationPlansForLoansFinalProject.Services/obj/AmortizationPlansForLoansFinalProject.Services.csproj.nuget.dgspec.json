@@ -31,9 +31,6 @@
             "projectReferences": {
               "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.Domain\\AmortizationPlansForLoansFinalProject.Domain.csproj": {
                 "projectPath": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.Domain\\AmortizationPlansForLoansFinalProject.Domain.csproj"
-              },
-              "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.DTOs\\AmortizationPlansForLoansFinalProject.DTOs.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.DTOs\\AmortizationPlansForLoansFinalProject.DTOs.csproj"
               }
             }
           }

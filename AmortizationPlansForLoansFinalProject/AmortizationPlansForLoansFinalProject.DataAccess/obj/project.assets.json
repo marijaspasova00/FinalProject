@@ -1508,19 +1508,6 @@
         "runtime": {
           "bin/placeholder/AmortizationPlansForLoansFinalProject.Domain.dll": {}
         }
-      },
-      "AmortizationPlansForLoansFinalProject.DTOs/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "AmortizationPlansForLoansFinalProject.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/AmortizationPlansForLoansFinalProject.DTOs.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AmortizationPlansForLoansFinalProject.DTOs.dll": {}
-        }
       }
     }
   },
@@ -4061,16 +4048,10 @@
       "type": "project",
       "path": "../AmortizationPlansForLoansFinalProject.Domain/AmortizationPlansForLoansFinalProject.Domain.csproj",
       "msbuildProject": "../AmortizationPlansForLoansFinalProject.Domain/AmortizationPlansForLoansFinalProject.Domain.csproj"
-    },
-    "AmortizationPlansForLoansFinalProject.DTOs/1.0.0": {
-      "type": "project",
-      "path": "../AmortizationPlansForLoansFinalProject.DTOs/AmortizationPlansForLoansFinalProject.DTOs.csproj",
-      "msbuildProject": "../AmortizationPlansForLoansFinalProject.DTOs/AmortizationPlansForLoansFinalProject.DTOs.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "AmortizationPlansForLoansFinalProject.DTOs >= 1.0.0",
       "AmortizationPlansForLoansFinalProject.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
@@ -4108,9 +4089,6 @@
           "projectReferences": {
             "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.Domain\\AmortizationPlansForLoansFinalProject.Domain.csproj": {
               "projectPath": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.Domain\\AmortizationPlansForLoansFinalProject.Domain.csproj"
-            },
-            "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.DTOs\\AmortizationPlansForLoansFinalProject.DTOs.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.DTOs\\AmortizationPlansForLoansFinalProject.DTOs.csproj"
             }
           }
         }

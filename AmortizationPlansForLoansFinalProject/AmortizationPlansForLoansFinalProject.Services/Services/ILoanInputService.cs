@@ -1,5 +1,4 @@
 ﻿using AmortizationPlansForLoansFinalProject.Domain.Models;
-using AmortizationPlansForLoansFinalProject.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +9,7 @@ namespace AmortizationPlansForLoansFinalProject.Services.Services
 {
     public interface ILoanInputService
     {
-        void CreateLoanInput(LoanInputDto loanInputDto);
-        AmortizationPlan CalculateAmortizationPlan(LoanInput loanInput);
+        Task AddLoanInputAsync(LoanInput loanInput);
     }
 
 }

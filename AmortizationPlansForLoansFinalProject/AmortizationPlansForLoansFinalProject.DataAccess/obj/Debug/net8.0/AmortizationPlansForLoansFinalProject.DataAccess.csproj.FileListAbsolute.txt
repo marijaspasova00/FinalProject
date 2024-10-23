@@ -15,5 +15,3 @@ C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationP
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DataAccess\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.DataAccess.pdb
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DataAccess\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.DataAccess.genruntimeconfig.cache
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DataAccess\obj\Debug\net8.0\ref\AmortizationPlansForLoansFinalProject.DataAccess.dll
-C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DataAccess\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.dll
-C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DataAccess\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.pdb

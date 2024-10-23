@@ -9,6 +9,6 @@ namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories
 {
     public interface IProductRepository
     {
-        IEnumerable<Product> GetAllProducts();
+        Task<IEnumerable<Product>> GetAllProductsAsync();
     }
 }

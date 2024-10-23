@@ -10,6 +10,6 @@ namespace AmortizationPlansForLoansFinalProject.Services.Services
 {
     public interface IProductService
     {
-        public IEnumerable<Product> GetAllProducts();
+        Task<IEnumerable<Product>> GetAllProductsAsync();
     }
 }

@@ -9,8 +9,8 @@ namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories
 {
     public interface IAmortizationPlanRepository
     {
-        void AddAmPlanIntoDb(AmortizationPlan amortizationPlan); 
-        void AddAmPlanIntoDbList(List<AmortizationPlan> amortizationPlan); 
+        Task AddAmPlanIntoDbAsync(AmortizationPlan amortizationPlan);
+        Task AddAmPlanIntoDbListAsync(List<AmortizationPlan> amortizationPlans);
 
     }
 }

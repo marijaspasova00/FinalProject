@@ -3,7 +3,9 @@ C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationP
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.Helper.pdb
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.DataAccess.dll
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.Domain.dll
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.Services.dll
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.DataAccess.pdb
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.Services.pdb
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.Domain.pdb
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.Helper.csproj.AssemblyReference.cache
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.Helper.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,7 +17,3 @@ C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationP
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\obj\Debug\net8.0\refint\AmortizationPlansForLoansFinalProject.Helper.dll
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.Helper.pdb
 C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\obj\Debug\net8.0\ref\AmortizationPlansForLoansFinalProject.Helper.dll
-C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.dll
-C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.Services.dll
-C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.Services.pdb
-C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.Helper\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.pdb

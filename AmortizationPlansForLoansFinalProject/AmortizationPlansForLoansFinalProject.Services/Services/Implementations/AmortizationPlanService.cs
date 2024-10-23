@@ -1,6 +1,5 @@
 ﻿using AmortizationPlansForLoansFinalProject.DataAccess.Repositories;
 using AmortizationPlansForLoansFinalProject.Domain.Models;
-using AmortizationPlansForLoansFinalProject.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,16 +10,21 @@ namespace AmortizationPlansForLoansFinalProject.Services.Services.Implementation
 {
     public class AmortizationPlanService : IAmortizationPlanService
     {
-        private readonly IAmortizationPlanRepository _repository;
+        private readonly IAmortizationPlanRepository _amortizationPlanRepository;
 
-        public AmortizationPlanService(IAmortizationPlanRepository repository)
+        public AmortizationPlanService(IAmortizationPlanRepository amortizationPlanRepository)
         {
-            _repository = repository;
+            _amortizationPlanRepository = amortizationPlanRepository;
         }
 
-        public void CreateAmortizationPlan(LoanInputDto loanInputDto)
+        public async Task AddAmortizationPlanAsync(AmortizationPlan amortizationPlan)
         {
-            throw new NotImplementedException();
+            await _amortizationPlanRepository.AddAmPlanIntoDbAsync(amortizationPlan);
+        }
+
+        public async Task AddAmortizationPlansAsync(List<AmortizationPlan> amortizationPlans)
+        {
+            await _amortizationPlanRepository.AddAmPlanIntoDbListAsync(amortizationPlans);
         }
     }
 }

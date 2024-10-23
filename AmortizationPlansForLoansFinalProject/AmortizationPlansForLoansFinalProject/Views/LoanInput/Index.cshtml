@@ -1,0 +1,40 @@
+﻿@using AmortizationPlansForLoansFinalProject.Domain.Enums
+@using AmortizationPlansForLoansFinalProject.Domain.Models
+@model AmortizationPlansForLoansFinalProject.ViewModels.LoanInputViewModel
+
+@{
+    ViewBag.Title = "Loan Amortization Plan";
+}
+
+<h2>Loan Amortization Calculator</h2>
+
+<form asp-action="CalculateAmortization" method="post">
+    <div>
+        <label asp-for="SelectedProductId">Product:</label>
+        <select asp-for="SelectedProductId" asp-items="Model.Products"></select>
+        <span asp-validation-for="SelectedProductId"></span>
+    </div>
+    <div>
+        <label asp-for="Amount">Amount:</label>
+        <input asp-for="Amount" type="number" min="1500" max="15000" />
+        <span asp-validation-for="Amount"></span>
+    </div>
+    <div>
+        <label asp-for="InterestRate">Interest Rate (%):</label>
+        <input asp-for="InterestRate" type="number" min="2" max="5" step="0.01" />
+        <span asp-validation-for="InterestRate"></span>
+    </div>
+    <div>
+        <label asp-for="NumberOfInstallments">Number of Installments:</label>
+        <input asp-for="NumberOfInstallments" type="number" min="24" max="48" />
+        <span asp-validation-for="NumberOfInstallments"></span>
+    </div>
+    <div>
+        <label asp-for="SelectedPaymentFrequency">Payment Frequency:</label>
+        <select asp-for="SelectedPaymentFrequency" asp-items="Model.PaymentFrequencies"></select>
+        <span asp-validation-for="SelectedPaymentFrequency"></span>
+    </div>
+    <button type="submit">Calculate</button>
+</form>
+
+\\

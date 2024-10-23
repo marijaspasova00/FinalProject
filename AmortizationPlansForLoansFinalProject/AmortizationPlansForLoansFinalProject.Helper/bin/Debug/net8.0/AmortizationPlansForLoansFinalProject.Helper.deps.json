@@ -563,7 +563,6 @@
       },
       "AmortizationPlansForLoansFinalProject.DataAccess/1.0.0": {
         "dependencies": {
-          "AmortizationPlansForLoansFinalProject.DTOs": "1.0.0",
           "AmortizationPlansForLoansFinalProject.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
@@ -581,17 +580,6 @@
         },
         "runtime": {
           "AmortizationPlansForLoansFinalProject.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "AmortizationPlansForLoansFinalProject.DTOs/1.0.0": {
-        "dependencies": {
-          "AmortizationPlansForLoansFinalProject.Domain": "1.0.0"
-        },
-        "runtime": {
-          "AmortizationPlansForLoansFinalProject.DTOs.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1008,11 +996,6 @@
       "sha512": ""
     },
     "AmortizationPlansForLoansFinalProject.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "AmortizationPlansForLoansFinalProject.DTOs/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

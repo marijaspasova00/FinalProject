@@ -21,6 +21,8 @@ namespace AmortizationPlansForLoansFinalProject.Helper
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ILoanInputRepository, LoanInputRepository>();
             services.AddScoped<IAmortizationPlanRepository, AmortizationPlanRepository>();
+            services.AddScoped<IProductConditionRepository, ProductConditionRepository>();
+
 
         }
 

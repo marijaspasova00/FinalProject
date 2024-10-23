@@ -9,6 +9,6 @@ namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories
 {
     public interface ILoanInputRepository
     {
-        void AddLoanInputIntoDb(LoanInput loanInput);
+        Task AddLoanInputIntoDbAsync(LoanInput loanInput);
     }
 }
