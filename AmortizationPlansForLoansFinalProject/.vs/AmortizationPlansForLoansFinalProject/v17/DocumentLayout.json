@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{9D537897-DFC4-4299-9BFA-6438816E249D}|AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.csproj|solutionrelative:amortizationplansforloansfinalproject\\controllers\\loaninputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D537897-DFC4-4299-9BFA-6438816E249D}|AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.csproj|c:\\users\\lenovo\\source\\repos\\amortizationplansforloansfinalproject\\amortizationplansforloansfinalproject\\views\\loaninput\\_amortizationplanpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D537897-DFC4-4299-9BFA-6438816E249D}|AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.csproj|solutionrelative:amortizationplansforloansfinalproject\\views\\loaninput\\_amortizationplanpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D537897-DFC4-4299-9BFA-6438816E249D}|AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.csproj|c:\\users\\lenovo\\source\\repos\\amortizationplansforloansfinalproject\\amortizationplansforloansfinalproject\\views\\loaninput\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D537897-DFC4-4299-9BFA-6438816E249D}|AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.csproj|solutionrelative:amortizationplansforloansfinalproject\\views\\loaninput\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{853A40EE-E611-454F-B7A8-62F5A9E4767B}|AmortizationPlansForLoansFinalProject.Services\\AmortizationPlansForLoansFinalProject.Services.csproj|c:\\users\\lenovo\\source\\repos\\amortizationplansforloansfinalproject\\amortizationplansforloansfinalproject.services\\services\\implementations\\loaninputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{853A40EE-E611-454F-B7A8-62F5A9E4767B}|AmortizationPlansForLoansFinalProject.Services\\AmortizationPlansForLoansFinalProject.Services.csproj|solutionrelative:amortizationplansforloansfinalproject.services\\services\\implementations\\loaninputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{853A40EE-E611-454F-B7A8-62F5A9E4767B}|AmortizationPlansForLoansFinalProject.Services\\AmortizationPlansForLoansFinalProject.Services.csproj|c:\\users\\lenovo\\source\\repos\\amortizationplansforloansfinalproject\\amortizationplansforloansfinalproject.services\\services\\iloaninputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{853A40EE-E611-454F-B7A8-62F5A9E4767B}|AmortizationPlansForLoansFinalProject.Services\\AmortizationPlansForLoansFinalProject.Services.csproj|solutionrelative:amortizationplansforloansfinalproject.services\\services\\iloaninputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D537897-DFC4-4299-9BFA-6438816E249D}|AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.csproj|c:\\users\\lenovo\\source\\repos\\amortizationplansforloansfinalproject\\amortizationplansforloansfinalproject\\views\\loaninput\\_amortizationplanpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D537897-DFC4-4299-9BFA-6438816E249D}|AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.csproj|solutionrelative:amortizationplansforloansfinalproject\\views\\loaninput\\_amortizationplanpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,50 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_AmortizationPlanPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\_AmortizationPlanPartial.cshtml",
-              "RelativeDocumentMoniker": "AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\_AmortizationPlanPartial.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\_AmortizationPlanPartial.cshtml",
-              "RelativeToolTip": "AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\_AmortizationPlanPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T19:34:43.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoanInputService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.Services\\Services\\Implementations\\LoanInputService.cs",
-              "RelativeDocumentMoniker": "AmortizationPlansForLoansFinalProject.Services\\Services\\Implementations\\LoanInputService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.Services\\Services\\Implementations\\LoanInputService.cs",
-              "RelativeToolTip": "AmortizationPlansForLoansFinalProject.Services\\Services\\Implementations\\LoanInputService.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAwwIcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T19:28:19.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\Index.cshtml",
-              "RelativeDocumentMoniker": "AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\Index.cshtml",
-              "RelativeToolTip": "AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\Index.cshtml",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAIIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T15:51:33.18Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,22 +36,35 @@
               "RelativeDocumentMoniker": "AmortizationPlansForLoansFinalProject\\Controllers\\LoanInputController.cs",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject\\Controllers\\LoanInputController.cs",
               "RelativeToolTip": "AmortizationPlansForLoansFinalProject\\Controllers\\LoanInputController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T19:16:41.439Z",
+              "WhenOpened": "2024-10-23T20:48:16.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ILoanInputService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.Services\\Services\\ILoanInputService.cs",
-              "RelativeDocumentMoniker": "AmortizationPlansForLoansFinalProject.Services\\Services\\ILoanInputService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject.Services\\Services\\ILoanInputService.cs",
-              "RelativeToolTip": "AmortizationPlansForLoansFinalProject.Services\\Services\\ILoanInputService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T19:28:11.675Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\Index.cshtml",
+              "RelativeDocumentMoniker": "AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\Index.cshtml",
+              "RelativeToolTip": "AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T20:43:08.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AmortizationPlanPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\_AmortizationPlanPartial.cshtml",
+              "RelativeDocumentMoniker": "AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\_AmortizationPlanPartial.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\AmortizationPlansForLoansFinalProject\\AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\_AmortizationPlanPartial.cshtml",
+              "RelativeToolTip": "AmortizationPlansForLoansFinalProject\\Views\\LoanInput\\_AmortizationPlanPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T20:43:07.384Z",
               "EditorCaption": ""
             }
           ]

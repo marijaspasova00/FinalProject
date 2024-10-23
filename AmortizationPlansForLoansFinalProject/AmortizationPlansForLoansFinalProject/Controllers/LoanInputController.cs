@@ -67,7 +67,6 @@ public class LoanInputController : Controller
         }
         if (!ModelState.IsValid)
         {
-            // Reload dropdowns and return the view if validation fails
             model.Products = await _context.Products
                 .Include(p => p.ProductCondition)
                 .Select(p => new SelectListItem
@@ -100,16 +99,16 @@ public class LoanInputController : Controller
             ClosingDate = DateTime.Now.AddMonths(model.NumberOfInstallments)
         };
 
-        // Save the LoanInput to the database or process it
         await _loanInputService.AddLoanInputAsync(loanInput);
-
-        // Generate the Amortization Plans
         var amortizationPlans = await _loanInputService.GetAmortizationPlansByLoanInputAsync(loanInput);
 
-        // Assign the generated amortization plans to the ViewModel
+        if (amortizationPlans == null || !amortizationPlans.Any())
+        {
+            ModelState.AddModelError("", "No amortization plans were generated. Please check your inputs.");
+        }
+
         model.AmortizationPlans = amortizationPlans;
 
-        // Return the view with updated data
         return View("Index", model);
     }
 
