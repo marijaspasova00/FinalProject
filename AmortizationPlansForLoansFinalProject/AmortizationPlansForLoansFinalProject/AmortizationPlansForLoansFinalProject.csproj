@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.DataAccess\AmortizationPlansForLoansFinalProject.DataAccess.csproj" />
+    <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.Domain\AmortizationPlansForLoansFinalProject.Domain.csproj" />
+    <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.DTOs\AmortizationPlansForLoansFinalProject.DTOs.csproj" />
+    <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.Helper\AmortizationPlansForLoansFinalProject.Helper.csproj" />
+    <ProjectReference Include="..\AmortizationPlansForLoansFinalProject.Services\AmortizationPlansForLoansFinalProject.Services.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.deps.json
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.dll
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.pdb
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.Domain.dll
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\bin\Debug\net8.0\AmortizationPlansForLoansFinalProject.Domain.pdb
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\obj\Debug\net8.0\Amortiza.CF97684B.Up2Date
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.dll
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\obj\Debug\net8.0\refint\AmortizationPlansForLoansFinalProject.DTOs.dll
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\obj\Debug\net8.0\AmortizationPlansForLoansFinalProject.DTOs.pdb
+C:\Users\LENOVO\source\repos\AmortizationPlansForLoansFinalProject\AmortizationPlansForLoansFinalProject.DTOs\obj\Debug\net8.0\ref\AmortizationPlansForLoansFinalProject.DTOs.dll
