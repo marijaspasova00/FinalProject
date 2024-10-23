@@ -32,6 +32,7 @@ namespace AmortizationPlansForLoansFinalProject.Domain.Models
         public DateTime FirstInstallmentDate { get; set; }
         public DateTime ClosingDate { get; set; }    
         public PaymentFrequency PaymentFrequency { get; set; }
+        public List<decimal> Installments { get; set; } = new List<decimal>();
 
     }
 

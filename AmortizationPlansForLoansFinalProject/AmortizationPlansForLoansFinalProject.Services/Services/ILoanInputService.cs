@@ -10,6 +10,7 @@ namespace AmortizationPlansForLoansFinalProject.Services.Services
     public interface ILoanInputService
     {
         Task AddLoanInputAsync(LoanInput loanInput);
+        Task<IEnumerable<AmortizationPlan>> GetAmortizationPlansByLoanInputAsync(LoanInput loanInput);
     }
 
 }

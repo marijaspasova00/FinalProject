@@ -26,5 +26,10 @@ namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories
             await _context.AmortizationPlans.AddRangeAsync(amortizationPlans);
             await _context.SaveChangesAsync(); 
         }
+        public async Task<AmortizationPlan> GetAmortizationPlanByLoanInputIdAsync(int loanInputId)
+        {
+            return await _context.AmortizationPlans
+                .FirstOrDefaultAsync(ap => ap.LoanInputID == loanInputId);
+        }
     }
 }

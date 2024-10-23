@@ -1,0 +1,38 @@
+﻿@if (Model.AmortizationPlans != null && Model.AmortizationPlans.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Installment Number</th>
+                <th>Payment Date</th>
+                <th>Total Amount</th>
+                <th>Principal</th>
+                <th>Interest</th>
+                <th>Remaining Amount</th>
+                <th>Expense</th>
+                <th>First Installment Date</th>
+                <th>Closing Date</th>
+                <th>Payment Frequency</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var plan in Model.AmortizationPlans)
+            {
+                <tr>
+                    <td>@plan.ProductName</td>
+                    <td>@plan.InstallmentNumber</td>
+                    <td>@plan.PaymentDate.ToShortDateString()</td>
+                    <td>@plan.TotalAmount.ToString("C")</td>
+                    <td>@plan.Principal.ToString("C")</td>
+                    <td>@plan.Interest.ToString("C")</td>
+                    <td>@plan.RemainingAmount.ToString("C")</td>
+                    <td>@plan.Expense.ToString("C")</td>
+                    <td>@plan.FirstInstallmentDate.ToShortDateString()</td>
+                    <td>@plan.ClosingDate.ToShortDateString()</td>
+                    <td>@plan.PaymentFrequency</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

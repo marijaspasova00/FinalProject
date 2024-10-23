@@ -11,6 +11,7 @@ namespace AmortizationPlansForLoansFinalProject.DataAccess.Repositories
     {
         Task AddAmPlanIntoDbAsync(AmortizationPlan amortizationPlan);
         Task AddAmPlanIntoDbListAsync(List<AmortizationPlan> amortizationPlans);
+        Task<AmortizationPlan> GetAmortizationPlanByLoanInputIdAsync(int loanInputId);
 
     }
 }
